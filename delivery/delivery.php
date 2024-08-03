@@ -47,9 +47,9 @@ $id=$_SESSION['Did'];
         <nav class="nav-bar">
             <ul>
                 <li><a href="#home" class="active">Home</a></li>
-                <li><a href="openmap.php" >map</a></li>
-                <li><a href="deliverymyord.php" >myorders</a></li>
-                <!-- <li ><a href="../logout.php"  >Logout</a></li> -->
+                <li><a href="openmap.php" >Map</a></li>
+                <li><a href="deliverymyord.php" >Myorders</a></li>
+                <li ><a href="../logout.php"  >Logout</a></li>
             </ul>
         </nav>
     </header>

@@ -96,7 +96,7 @@ const prompts = [
     // "Try again",
     // // "I'm listening...:/",
     // "I don't understand ",
-    " 😢sorry i am still under development "
+    " Sorry i am still under development "
   ]
   
   // Whatever else you want :)

@@ -77,15 +77,15 @@ if(isset($_POST['submit']))
         <div class="image-radio-group">
             <input type="radio" id="raw-food" name="image-choice" value="raw-food">
             <label for="raw-food">
-              <img src="img/raw-food.png" alt="raw-food" >
+              <img src="../img/raw-food.png" alt="raw-food" >
             </label>
             <input type="radio" id="cooked-food" name="image-choice" value="cooked-food"checked>
             <label for="cooked-food">
-              <img src="img/cooked-food.png" alt="cooked-food" >
+              <img src="../img/cooked-food.png" alt="cooked-food" >
             </label>
             <input type="radio" id="packed-food" name="image-choice" value="packed-food">
             <label for="packed-food">
-              <img src="img/packed-food.png" alt="packed-food" >
+              <img src="../img/packed-food.png" alt="packed-food" >
             </label>
           </div>
           <br>
@@ -115,15 +115,15 @@ if(isset($_POST['submit']))
         <label for="location"></label>
         <label for="district">District:</label>
 <select id="district" name="district" style="padding:10px;">
-  <option value="chennai">Chennai</option>
-  <option value="kancheepuram">Kancheepuram</option>
+  <option value="indore">Indore</option>
+  <!-- <option value="kancheepuram">Kancheepuram</option>
   <option value="thiruvallur">Thiruvallur</option>
   <option value="vellore">Vellore</option>
   <option value="tiruvannamalai">Tiruvannamalai</option>
   <option value="tiruvallur">Tiruvallur</option>
-  <option value="tiruppur">Tiruppur</option>
-  <option value="coimbatore">Coimbatore</option>
-  <option value="erode">Erode</option>
+  <option value="tiruppur">Tiruppur</option> -->
+  <option value="bhopal">Bhopal</option>
+  <!-- <option value="erode">Erode</option>
   <option value="salem">Salem</option>
   <option value="namakkal">Namakkal</option>
   <option value="tiruchirappalli">Tiruchirappalli</option>
@@ -131,9 +131,9 @@ if(isset($_POST['submit']))
   <option value="pudukkottai">Pudukkottai</option>
   <option value="karur">Karur</option>
   <option value="ariyalur">Ariyalur</option>
-  <option value="perambalur">Perambalur</option>
-  <option value="madurai" selected>Madurai</option>
-  <option value="virudhunagar">Virudhunagar</option>
+  <option value="perambalur">Perambalur</option> -->
+  <option value="gwalior" selected>Gwalior</option>
+  <!-- <option value="virudhunagar">Virudhunagar</option>
   <option value="dindigul">Dindigul</option>
   <option value="ramanathapuram">Ramanathapuram</option>
   <option value="sivaganga">Sivaganga</option>
@@ -141,7 +141,7 @@ if(isset($_POST['submit']))
   <option value="tirunelveli">Tirunelveli</option>
   <option value="tiruppur">Tiruppur</option>
   <option value="tenkasi">Tenkasi</option>
-  <option value="kanniyakumari">Kanniyakumari</option>
+  <option value="kanniyakumari">Kanniyakumari</option> -->
 </select> 
 
         <label for="address" style="padding-left: 10px;">Address:</label>

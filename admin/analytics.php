@@ -173,24 +173,24 @@ if($_SESSION['name']==''){
             $ro2=mysqli_fetch_assoc($res2);
             $female=$ro2['count'];
             $male=$row['count'];
-            $q3="SELECT count(*) as count FROM food_donations where location=\"madurai\"";
+            $q3="SELECT count(*) as count FROM food_donations where location=\"indore\"";
             $res3=mysqli_query($connection, $q3);
             $ro3=mysqli_fetch_assoc($res3);
-            $madurai=$ro3['count'];
-            $q4="SELECT count(*) as count FROM food_donations where location=\"chennai\"";
+            $indore=$ro3['count'];
+            $q4="SELECT count(*) as count FROM food_donations where location=\"bhopal\"";
             $res4=mysqli_query($connection, $q4);
             $ro4=mysqli_fetch_assoc($res4);
-            $chennai=$ro4['count'];
-            $q5="SELECT count(*) as count FROM food_donations where location=\"coimbatore\"";
+            $bhopal=$ro4['count'];
+            $q5="SELECT count(*) as count FROM food_donations where location=\"gwalior\"";
             $res5=mysqli_query($connection, $q5);
             $ro5=mysqli_fetch_assoc($res5);
-            $coimbatore=$ro5['count'];
+            $gwalior=$ro5['count'];
             
 
     ?>
 var xValues = ["Male","Female"];
-var xplace=["Madurai","chennai","coimbatore"];
-var yplace=[<?php echo json_encode($madurai,JSON_HEX_TAG);?>,<?php echo json_encode($coimbatore,JSON_HEX_TAG);?>,<?php echo json_encode($chennai,JSON_HEX_TAG);?>];
+var xplace=["Indore","Bhopal","Gwalior"];
+var yplace=[<?php echo json_encode($indore,JSON_HEX_TAG);?>,<?php echo json_encode($bhopal,JSON_HEX_TAG);?>,<?php echo json_encode($gwalior,JSON_HEX_TAG);?>];
 var yValues = [<?php echo json_encode($male,JSON_HEX_TAG);?>,<?php echo json_encode($female,JSON_HEX_TAG);?>,30];
 var barColors = ["#06C167","blue"];
 var bar=["#06C167","blue","red"]

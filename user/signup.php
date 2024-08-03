@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include '../connection.php';
 // $connection=mysqli_connect("localhost:3307","root","");
 // $db=mysqli_select_db($connection,'demo');
 if(isset($_POST['sign']))
@@ -117,6 +117,8 @@ if(isset($_POST['sign']))
             <div class="signin-up">
                  <p style="font-size: 20px; text-align: center;">Already have an account? <a href="signin.php"> Sign in</a></p>
              </div>
+             <div class="back"><a href="../index.html"> BACK</a>
+                  </div>
          
 
         </form>

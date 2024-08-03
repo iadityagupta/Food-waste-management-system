@@ -137,15 +137,15 @@ if(isset($_POST['signup']))
                     <div class="input-field">
                         <!-- <label for="district">District:</label> -->
                         <select id="district" name="district" style="padding:10px; padding-left: 20px;">
-                          <option value="chennai">Chennai</option>
-                          <option value="kancheepuram">Kancheepuram</option>
+                          <option value="indore">Indore</option>
+                          <!-- <option value="kancheepuram">Kancheepuram</option>
                           <option value="thiruvallur">Thiruvallur</option>
                           <option value="vellore">Vellore</option>
                           <option value="tiruvannamalai">Tiruvannamalai</option>
                           <option value="tiruvallur">Tiruvallur</option>
-                          <option value="tiruppur">Tiruppur</option>
-                          <option value="coimbatore">Coimbatore</option>
-                          <option value="erode">Erode</option>
+                          <option value="tiruppur">Tiruppur</option> -->
+                          <option value="bhopal">Bhopal</option>
+                          <!-- <option value="erode">Erode</option>
                           <option value="salem">Salem</option>
                           <option value="namakkal">Namakkal</option>
                           <option value="tiruchirappalli">Tiruchirappalli</option>
@@ -153,9 +153,9 @@ if(isset($_POST['signup']))
                           <option value="pudukkottai">Pudukkottai</option>
                           <option value="karur">Karur</option>
                           <option value="ariyalur">Ariyalur</option>
-                          <option value="perambalur">Perambalur</option>
-                          <option value="madurai" selected>Madurai</option>
-                          <option value="virudhunagar">Virudhunagar</option>
+                          <option value="perambalur">Perambalur</option> -->
+                          <option value="gwalior" selected>Gwalior</option>
+                          <!-- <option value="virudhunagar">Virudhunagar</option>
                           <option value="dindigul">Dindigul</option>
                           <option value="ramanathapuram">Ramanathapuram</option>
                           <option value="sivaganga">Sivaganga</option>
@@ -163,7 +163,7 @@ if(isset($_POST['signup']))
                           <option value="tirunelveli">Tirunelveli</option>
                           <option value="tiruppur">Tiruppur</option>
                           <option value="tenkasi">Tenkasi</option>
-                          <option value="kanniyakumari">Kanniyakumari</option>
+                          <option value="kanniyakumari">Kanniyakumari</option> -->
                         </select> 
                         
 

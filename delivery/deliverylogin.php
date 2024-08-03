@@ -108,6 +108,8 @@ if (isset($_POST['sign'])) {
         <div class="signup_link">
           Not a member? <a href="deliverysignup.php">Signup</a>
         </div>
+        <div class="back"><a href="../index.html"> BACK</a>
+                  </div>
       </form>
     </div>
 

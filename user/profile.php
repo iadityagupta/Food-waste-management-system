@@ -82,7 +82,7 @@ if($_SESSION['name']==''){
               <p style="">Gender:<?php echo"". $_SESSION['gender'] ;?> </p><br>
                <!-- <p style="font-family: 'Times New Roman', Times, serif;">gender  :<?php echo"". $_SESSION['gender'] ;?> </p><br>  -->
               
-              <a href="logout.php" style="float: left;margin-top: 6px ;border-radius:5px; background-color: #06C167; color: white;padding: ;padding-left: 10px;padding-right: 10px;">Logout</a>
+              <a href="../logout.php" style="float: left;margin-top: 6px ;border-radius:5px; background-color: #06C167; color: white;padding: ;padding-left: 10px;padding-right: 10px;">Logout</a>
               </div>
               <br>
               <br>

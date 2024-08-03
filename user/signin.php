@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'connection.php';
+include '../connection.php';
 // $connection = mysqli_connect("localhost:3307", "root", "");
 // $db = mysqli_select_db($connection, 'demo');
 $msg=0;
@@ -90,6 +90,8 @@ if (isset($_POST['sign'])) {
                 <div class="signin-up">
                     <p id="signin-up">Don't have an account? <a href="signup.php">Register</a></p>
                 </div>
+                <div class="back"><a href="../index.html"> BACK</a>
+                  </div>
             </form>
         </div>
 

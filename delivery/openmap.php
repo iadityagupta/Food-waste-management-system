@@ -52,9 +52,10 @@
         <nav class="nav-bar">
             <ul>
                 <li><a href="delivery.php">Home</a></li>
-                <li><a href="#" class="active">map</a></li>
-                <li><a href="deliverymyord.php" >myorders</a></li>
+                <li><a href="#" class="active">Map</a></li>
+                <li><a href="deliverymyord.php" >Myorders</a></li>
                 <!-- <li ><a href="fooddonate.html"  >Donate</a></li> -->
+                <li ><a href="../logout.php"  >Logout</a></li>
             </ul>
         </nav>
     </header>
